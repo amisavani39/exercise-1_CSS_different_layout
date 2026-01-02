@@ -35,5 +35,5 @@ label{
     transition: all .5s;
 }
 .toggle-input:checked ~ .toggle-switch{
-    transform: translateX(calc(var(--toggle-width)-var(--circle-size)));
+    transform: translateX(calc((var(--toggle-width)) - (var(--circle-size))));
 }
